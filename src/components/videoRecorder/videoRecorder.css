@@ -1,0 +1,58 @@
+.videoRecorder {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.option-VQ {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.option-VQ button {
+    border: 0;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rec-circle {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(204, 13, 13);
+    border-radius: 50%;
+    animation: blink 0.5s infinite alternate;
+}
+
+.containerVideoET {
+    height: 100%;
+}
+
+
+@keyframes blink {
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,38 @@
+.contentModal {
+    /* background: #141414; */
+}
+
+.modal__contentButton {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 20px;
+
+}
+
+
+
+.modal__groupButtons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+.modal__groupButtons button {
+    display: flex;
+    justify-content: space-around;
+    color: #f5f5f5;
+    font-weight: 600;
+}
+
+.modal__groupButtons button:disabled {
+    color: #414141;
+}
+
+.legenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+.videoQuestion__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.videoQuestion__videoContent {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.videoQuestion__sendButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.videoQuestion__sendButton button {
+    background: #2b2b2b;
+    padding: 10px 13px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    position: relative;
+    transition: 0.2s;
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+    align-items: center;
+    gap: 6px;
+}
+
+.videoQuestion__sendButton button:active {
+    bottom: 2px;
+}
+
+.videoQuestion__sendButton button:disabled:active {
+    bottom: 0;
+}
+
+
+.videoQuestion__sendButton button:disabled {
+    opacity: 0.4;
+}

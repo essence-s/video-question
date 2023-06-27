@@ -1,0 +1,9 @@
+.containerMaxWidth {
+    max-width: 1200px;
+    padding: 80px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
